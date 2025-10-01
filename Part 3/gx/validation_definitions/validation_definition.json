@@ -1,0 +1,22 @@
+{
+  "data": {
+    "asset": {
+      "id": "7536c820-4c90-4d55-b661-60602429a60b",
+      "name": "raw_data_day_asset"
+    },
+    "batch_definition": {
+      "id": "43be4a6e-fb16-4219-8d5c-9d27cfe1bb2a",
+      "name": "daily_raw_data"
+    },
+    "datasource": {
+      "id": "6ff19f81-98c0-45f5-ae4a-fd1193986cc5",
+      "name": "my_filesystem_data_source"
+    }
+  },
+  "id": "2533842e-25da-4483-9b9a-6554f980b61e",
+  "name": "validation_definition",
+  "suite": {
+    "id": "b7c91d29-e0e0-4147-9e5f-cf2ffad00223",
+    "name": "raw_data_contract"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "expectations": [
+    {
+      "id": "4c9d0668-109b-47c1-b544-0b6e8c4869fc",
+      "kwargs": {
+        "column": "Age"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "9be62d75-82b7-49df-b099-0a5a621d538a",
+      "kwargs": {
+        "column": "Depression_Score"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_to_exist"
+    },
+    {
+      "id": "a450c500-5e74-46dc-b5d8-90cfd54f9e5f",
+      "kwargs": {
+        "column": "Heart_Rate"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "1a19540e-cc6c-44bd-8ea2-71d616f27c19",
+      "kwargs": {
+        "column": "patient_ID"
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_not_be_null"
+    },
+    {
+      "id": "d3a0b3b9-e78e-4dc6-8972-56e50336bd05",
+      "kwargs": {
+        "column": "Sleep_Hours",
+        "max_value": 15.0,
+        "min_value": 3.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_values_to_be_between"
+    },
+    {
+      "id": "c3a1aaee-98f5-4499-b6cb-94ac658703fd",
+      "kwargs": {
+        "column": "Anxiety_Score",
+        "max_value": 25.0,
+        "min_value": 15.0
+      },
+      "meta": {},
+      "severity": "critical",
+      "type": "expect_column_mean_to_be_between"
+    }
+  ],
+  "id": "b7c91d29-e0e0-4147-9e5f-cf2ffad00223",
+  "meta": {
+    "great_expectations_version": "1.6.3"
+  },
+  "name": "raw_data_contract",
+  "notes": null
+}

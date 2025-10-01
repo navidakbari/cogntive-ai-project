@@ -1,0 +1,72 @@
+# Byte-compiled / optimized / test / extension files
+__pycache__/
+*.py[cod]
+*$py.class
+# Pylint metadata
+.pylint.d/
+
+# C extensions
+*.so
+*.pyd
+*.dll
+
+# Distribution / packaging
+.Python
+build/
+dist/
+wheels/
+*.egg-info/
+*.egg
+
+# Development environments
+.tox/
+.nox/
+.venv
+venv/
+env/
+part 3/venv
+pip-wheel-metadata/
+.coverage
+.cache
+.hypothesis
+.pytest_cache/
+
+# Editors
+# If you use certain editors, you might want to uncomment or add to this list.
+# Popular editor temporary files
+*~
+*.swp
+.DS_Store
+# VS Code
+.vscode/
+# PyCharm
+.idea/
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# OS / system files
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+
+# Jupyter / IPython
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+notebooks/.ipynb_checkpoints/
+
+# Documentation
+docs/_build/
+
+# Testing (optional)
+# Coverage reports
+htmlcov/
+.coverage.*
+.nyc_output/
+
+# Logs and databases
+*.log
+*.sqlite3
+db.sqlite3

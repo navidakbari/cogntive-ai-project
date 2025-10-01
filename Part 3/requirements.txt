@@ -1,0 +1,11 @@
+# requirements.txt for Production-Ready Feature ETL with Quality Gates
+
+# Core Libraries
+pandas
+numpy
+
+# Data Quality and Validation
+great-expectations
+
+# Data Storage (Required for Parquet file output using Pandas)
+pyarrow 
